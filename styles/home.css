@@ -12,7 +12,7 @@ body {
     justify-content: space-around;
     padding: 8px;
     background-color: #1F2937;
-    color: white;
+    color: #E5E7EB;
 }
 
 .header-links {
@@ -38,7 +38,7 @@ a,
 
 .sign-up {
     background-color: #3882F6;
-    color: white;
+    color: #E5E7EB;
     border-radius: 12px;
     padding: 5px;
     box-shadow: none;
@@ -65,10 +65,28 @@ a,
     gap: 8px;
 }
 
-.top-image {
+.top-image,
+.card-image {
     width: 100%;
     max-width: 400px;
     height: auto;
+}
+
+.cards {
+    display: flex;
+    gap: 24px;
+    padding: 16px;
+}
+
+.text {
+    text-align: center;
+    color: #707884;
+}
+
+.card-image {
+    max-width: 200px;
+    border:5px solid #3882F6;
+    border-radius: 12px;
 }
 
 .big-text {
@@ -88,4 +106,40 @@ a,
     color:#1F2937;
     font-weight: bold;
     font-size: 36px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter; 
+    color:#1F2937;
+    font-style: italic;
+}
+
+.quote-author {
+    padding-left: 20%;
+}
+
+.final-section {
+    background-color: #3882F6;
+    color:#E5E7EB;
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    margin: 32px 240px;
+}
+
+.button {
+    color:#E5E7EB;
+    background-color: #3882F6;
+    border-radius: 12px;
+    width: 30%;
 }
