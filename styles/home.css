@@ -13,6 +13,9 @@ body {
     padding: 8px;
     background-color: #1F2937;
     color: #E5E7EB;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .header-links {
@@ -135,11 +138,29 @@ a,
     justify-content: space-around;
     padding: 16px;
     margin: 32px 240px;
+    border-radius: 10px;
 }
 
-.button {
+.final-sign-up {
     color:#E5E7EB;
     background-color: #3882F6;
     border-radius: 12px;
-    width: 30%;
+    width: 10%;
+    border: 2px solid #E5E7EB;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.bold-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: self;
+    background-color: #1F2937;
+    padding: 16px;
+    color:#E5E7EB;
 }
