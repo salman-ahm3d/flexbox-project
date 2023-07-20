@@ -76,6 +76,11 @@ a,
     height: auto;
 }
 
+.top-image {
+    border-radius: 8px;
+    border: 2px solid #E5E7EB;
+}
+
 .cards {
     display: flex;
     gap: 24px;
