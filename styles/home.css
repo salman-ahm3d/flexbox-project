@@ -11,8 +11,8 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 8px;
-    background-color: #1F2937;
-    color: #E5E7EB;
+    background-color: #011638;
+    color: #EEF0F2;
     position: fixed;
     top: 0;
     width: 100%;
@@ -40,8 +40,8 @@ a,
 }
 
 .sign-up {
-    background-color: #3882F6;
-    color: #E5E7EB;
+    background-color: #EEC643;
+    color: #EEF0F2;
     border-radius: 12px;
     padding: 5px;
     box-shadow: none;
@@ -52,10 +52,10 @@ a,
 }
 
 .top-section {
-    background-color: #1F2937;
+    background-color: #011638;
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 8px;
     padding-top: 52px;
     align-items: center;
@@ -76,9 +76,6 @@ a,
     height: auto;
 }
 
-.top-image {
-    border-radius: 8px;
-}
 
 .cards {
     display: flex;
@@ -93,7 +90,7 @@ a,
 
 .card-image {
     max-width: 200px;
-    border:5px solid #3882F6;
+    border:5px solid #EEC643;
     border-radius: 12px;
 }
 
@@ -111,13 +108,13 @@ a,
 }
 
 .title {
-    color:#1F2937;
+    color:#011638;
     font-weight: bold;
     font-size: 36px;
 }
 
 .quote-section {
-    background-color: #E5E7EB;
+    background-color: #EEF0F2;
     padding: 32px;
     display: flex;
     justify-content: center;
@@ -139,8 +136,8 @@ a,
 }
 
 .final-section {
-    background-color: #3882F6;
-    color:#E5E7EB;
+    background-color: #EEC643;
+    color:#EEF0F2;
     display: flex;
     justify-content: space-around;
     padding: 16px;
@@ -149,11 +146,11 @@ a,
 }
 
 .final-sign-up {
-    color:#E5E7EB;
+    color:#EEF0F2;
     background-color: #3882F6;
     border-radius: 12px;
     width: 10%;
-    border: 2px solid #E5E7EB;
+    border: 2px solid #EEF0F2;
     font-size: 14px;
     font-weight: 700;
 }
@@ -169,5 +166,5 @@ a,
     align-items: self;
     background-color: #1F2937;
     padding: 16px;
-    color:#E5E7EB;
+    color:#EEF0F2;
 }
