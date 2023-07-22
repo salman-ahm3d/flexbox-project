@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 8px;
-    background-color: #011638;
+    background-color: #111516;
     color: #EEF0F2;
     position: fixed;
     top: 0;
@@ -34,25 +34,25 @@ body {
 a,
 .small-text {
     text-decoration: none;
-    color: #bbb;
+    color: #EEF0F2;
     font-size: 18px;
 
 }
 
 .sign-up {
-    background-color: #EEC643;
-    color: #EEF0F2;
+    background-color: #EEF0F2;
+    color: #111516;
     border-radius: 12px;
     padding: 5px;
     box-shadow: none;
-    width: 25%;
+    width: 20%;
     border: none;
     font-size: 18px;
     font-weight: 700;
 }
 
 .top-section {
-    background-color: #011638;
+    background-color: #1f2c47;
     color: white;
     display: flex;
     justify-content: space-evenly;
@@ -85,12 +85,12 @@ a,
 
 .text {
     text-align: center;
-    color: #707884;
+    color: #111516;
 }
 
 .card-image {
     max-width: 200px;
-    border:5px solid #EEC643;
+    border:5px solid #93B7BE;
     border-radius: 12px;
 }
 
@@ -108,7 +108,7 @@ a,
 }
 
 .title {
-    color:#011638;
+    color:#111516;
     font-weight: bold;
     font-size: 36px;
 }
@@ -125,7 +125,7 @@ a,
 .quote-text {
     font-size: 36px;
     font-weight: lighter; 
-    color:#1F2937;
+    color:#111516;
     font-style: italic;
     max-width: 40%;
 }
@@ -133,21 +133,23 @@ a,
 .quote-author {
     margin-top: 10px;
     padding-left: 20%;
+    color: #111516;
 }
 
 .final-section {
-    background-color: #EEC643;
+    background-color: #1f2c47;
     color:#EEF0F2;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 16px;
-    margin: 32px 240px;
+    margin: 32px 30%;
     border-radius: 10px;
+    width: 40%;
 }
 
 .final-sign-up {
-    color:#EEF0F2;
-    background-color: #3882F6;
+    color:#111516;
+    background-color: #EEF0F2;
     border-radius: 12px;
     width: 10%;
     border: 2px solid #EEF0F2;
@@ -163,8 +165,9 @@ a,
 .footer {
     display: flex;
     justify-content: center;
-    align-items: self;
-    background-color: #1F2937;
+    align-items: center;
+    background-color: #111516;
     padding: 16px;
     color:#EEF0F2;
+    height: 58px;
 }
